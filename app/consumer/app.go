@@ -88,7 +88,8 @@ import (
 )
 
 const (
-	AppName              = "interchain-security-c"
+	AppName              = "compassd"
+	ChainID              = "compass-goc"
 	upgradeName          = "v07-Theta"
 	AccountAddressPrefix = "cosmos"
 )

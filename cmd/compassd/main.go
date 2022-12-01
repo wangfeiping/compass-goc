@@ -14,7 +14,7 @@ func main() {
 		app.AppName,
 		app.AccountAddressPrefix,
 		app.DefaultNodeHome,
-		app.AppName,
+		app.ChainID,
 		app.ModuleBasics,
 		app.New,
 		// this line is used by starport scaffolding # root/arguments
