@@ -5,7 +5,7 @@ install: go.sum
 		export CGO_CPPFLAGS="-D_FORTIFY_SOURCE=2"
 		export CGO_LDFLAGS="-Wl,-z,relro,-z,now -fstack-protector"
 		go install $(BUILD_FLAGS) ./cmd/interchain-security-pd
-		go install $(BUILD_FLAGS) ./cmd/interchain-security-cd
+		go install $(BUILD_FLAGS) ./cmd/compassd
 		go install $(BUILD_FLAGS) ./cmd/interchain-security-cdd
 
 # run all tests: unit, e2e, diff, and integration
