@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
+BRANCH := $(shell git name-rev --name-only HEAD | sed s,'.*/\(.*\)','\1',)
 COMMIT := $(shell git log -1 --format='%H')
 
 # don't override user values
