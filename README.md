@@ -20,6 +20,7 @@ This project is based on the `cosmos/interchain-security` repo tag [v0.2.1](http
 
 ```bash
 # install interchain-security-pd and moed binaries
+git checkout v0.1.1
 make install
 # run provider
 interchain-security-pd
