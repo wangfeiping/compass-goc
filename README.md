@@ -31,5 +31,5 @@ compassd
 
 **We are launching the `compass` chain with the goal of testing `rly` (the `go` relayer). Please do not operate any other relayer (Hermes, etc.) with this chain.**
 
-You can join the testnet following the [Compass Chain of Testnet Information](https://github.com/wangfeiping/ics-testnets/tree/main/game-of-chains-2022/compass)
+You can join the testnet following the [Compass Chain of Testnet Information](https://github.com/WALL-E/ics-compass)
 
