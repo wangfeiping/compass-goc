@@ -1,6 +1,6 @@
 # Compass
 
-compass will launch as a consumer chain through a governance proposal in the `provider` chain. Read the [Consumer Chain Start Process](/docs/Consumer-Chain-Start-Process.md) page for more details about the workflow.
+compass will launch as a consumer chain through a governance proposal in the `provider` chain. Read the [Consumer Chain Start Process](https://github.com/hyphacoop/ics-testnets/blob/main/docs/Consumer-Chain-Start-Process.md) page for more details about the workflow.
 
 This project is based on the `cosmos/interchain-security` repo tag [v0.2.1](https://github.com/cosmos/interchain-security/releases/tag/v0.2.1). You can generate the binary following the [build instructions](https://github.com/cosmos/interchain-security#instructions).
 
